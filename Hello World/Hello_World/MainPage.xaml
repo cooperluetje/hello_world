@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Hello_World"
+             x:Class="Hello_World.MainPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label x:Name="helloLabel"
+                Text="Hello World!"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand"
+                IsVisible="False"/>
+            <Button Text="View Text" 
+                VerticalOptions="EndAndExpand"
+                HorizontalOptions="Center"
+                Clicked="OnButtonClicked" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
